@@ -10,6 +10,8 @@ const cors = require("cors");
 app.use(express.json());
 app.use(cors());
 
+
+
 //Image Storage Engine 
 const storage = multer.diskStorage({
     destination: './upload/images',
@@ -107,6 +109,7 @@ const Product = mongoose.model("Product", {
 });
 
 app.get("/", (req, res) => {
+  res.setHeader("Access-Control-Allow-credentials","true");
   res.send("Root");
 });
 
