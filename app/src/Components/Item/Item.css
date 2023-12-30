@@ -1,0 +1,38 @@
+.item{
+    width:350px;
+}
+.item p{
+    margin : 6px 0px;
+}
+.item_price{
+    display: flex;
+    gap:20px;
+}
+.item_new_price{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.item_old_price{
+    color:#8c8c8c;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+.item:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+.item img{
+    max-width: 350px;
+    max-height: 350px;
+}
+.item_price img{
+    max-width: 30px;
+    max-height: 30px;
+    float: right;
+    padding-left: 120px;
+    right:0;
+    cursor: pointer;
+}
+

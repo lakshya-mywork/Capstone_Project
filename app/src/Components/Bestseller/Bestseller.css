@@ -1,0 +1,25 @@
+.bestseller{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-Items: center;
+    gap:10px;
+    height: 90vh;
+}
+.bestseller h1{
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+}
+.bestseller hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+.bestseller_item{
+    margin-top: 50px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30px; 
+}

@@ -1,0 +1,27 @@
+.wishlistitems{
+    margin: 50px 170px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.wishlist_format{
+    margin-top: 70px;
+    margin-left: 40px;
+    gap: 20px;
+}
+.wishlist_format .wishlistitems{
+    margin-left: 50px;
+    display: flex;
+    
+}
+.wishlist_product{
+    height: 150px;
+    width: 150px;
+}
+.wishlist_format button{
+    height: 35px;
+    width: 150px;
+}
+.wishlistitems_remove{
+    margin-left: 70px;
+}
